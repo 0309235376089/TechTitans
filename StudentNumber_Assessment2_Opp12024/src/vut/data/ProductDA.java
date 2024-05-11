@@ -29,8 +29,6 @@ public static void replenish(int quantity, int productCode) {
     ps.setInt(2, productCode);
     ps.executeUpdate();
 }catch (SQLException e){
-        System.out.
-
-println("Error replenishing product.\n" + e.getMessage());
+        System.out.println("Error replenishing product.\n" + e.getMessage());
         }
 }
