@@ -1,0 +1,22 @@
+Create database Test2ProductsDB;
+use Test2ProductsDB;
+
+
+create table tblProducts (
+ProdCode int(4) auto_increment  primary key, 
+ProdName varchar(30) Unique not null,
+ProdCategory varchar(30) not null,
+No_In_Stock int not null,
+Price double not null);
+
+
+Alter table tblProducts auto_increment = 1001;
+
+insert into tblProducts (ProdName,ProdCategory,No_In_Stock,Price ) values ('*Aloe Vera Gel','WEIGHT_MANAGEMENT',0,86.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('Forever Garcinia Plus','WEIGHT_MANAGEMENT',19,388.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('*Aloe Berry Nectar','NUTRITIONAL_SUPPLEMENT',21,226.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('Forever Beta Care','NUTRITIONAL_SUPPLEMENT',0,360.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('Forever Bee Pollen','NUTRITIONAL_SUPPLEMENT',33,300.00);
+insert into tblProducts ( ProdName, ProdCategory,No_In_Stock,Price ) values ('Forever Bee Propolis','NUTRITIONAL_SUPPLEMENT',2,326.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('*Aloe Blossom','NUTRITIONAL_SUPPLEMENT',32,96.00);
+insert into tblProducts (ProdName, ProdCategory,No_In_Stock,Price ) values ('Forever Lite Vanilla','WEIGHT_MANAGEMENT',6,426.00);
