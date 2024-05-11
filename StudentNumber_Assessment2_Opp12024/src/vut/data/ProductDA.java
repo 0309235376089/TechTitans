@@ -15,7 +15,7 @@ public class ProductDA {
      Statement stmt;
      ResultSet rs;
      PreparedStatement ps;
-    ArrayList<ProductPD> arProduct = new ArrayList<>();
+   private static ArrayList<ProductPD> arProduct = new ArrayList<>();
 
     
 }
