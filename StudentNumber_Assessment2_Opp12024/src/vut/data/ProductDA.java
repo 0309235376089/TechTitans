@@ -12,7 +12,7 @@ public class ProductDA {
     //MODIFY THESE DECLARATIONSIF THEY ARE INCORRECTLY DECLARED 
 
      Connection con;
-     Statement stmt;
+     private static Statement stmt;
      ResultSet rs;
      PreparedStatement ps;
     ArrayList<ProductPD> arProduct = new ArrayList<>();
