@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33045bc9-3b97-44a5-bdc7-0ee154a627c1" name="Changes" comment="" />
+    <list default="true" id="33045bc9-3b97-44a5-bdc7-0ee154a627c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/StudentNumber_Assessment2_Opp12024/src/vut/data/ProductDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentNumber_Assessment2_Opp12024/src/vut/data/ProductDA.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gJqxJbXV03mUrp8XSyIHir7A6N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,9 +26,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "pfano",
+    "git-widget-placeholder": "Tumelo",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Latitude E5540/OneDrive/Desktop/Tech Titans/TechTitans"
+    "last_opened_file_path": "C:/Users/Tumelo/Desktop/Tech Titans/TechTitans"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
