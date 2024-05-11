@@ -37,15 +37,3 @@ public class ProductDA {
      }
     
 }
-public static void replenish(int quantity, int productCode) {
-    String query = "UPDATE tblProduct SET quantity = quantity + ? WHERE productCode =?";
-            try{
-    ps = con.prepareStatement(query);
-    ps.setInt(1, quantity);
-    ps.setInt(2, productCode);
-    ps.executeUpdate();
-}catch (SQLException e){
-        System.out.println("Error replenishing product.\n" + e.getMessage());
-        }
-} //whatever wow git add
-// 
