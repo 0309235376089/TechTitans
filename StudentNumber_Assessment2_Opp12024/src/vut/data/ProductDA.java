@@ -37,6 +37,7 @@ public class ProductDA {
      }
     
 }
+
 public static void replenish(int quantity, int productCode) {
     String query = "UPDATE tblProduct SET quantity = quantity + ? WHERE productCode =?";
             try{
@@ -48,4 +49,18 @@ public static void replenish(int quantity, int productCode) {
         System.out.println("Error replenishing product.\n" + e.getMessage());
         }
 } //whatever wow git add
-// 
+//
+public static void deleteProduct(ProductPD prod) throws NotFoundException{
+    boolean found=false;
+    for (int i = 0; i < arProduct.size()&&!found; i++) {
+        if(arProduct.get(i).getProdID().equals(prod.getProdID())){
+            found=true;
+            arProduct.remove(i);
+        }
+    }
+    if(!found){
+        throw  new NotFoundException(stud.getProdID()+" Not found for deleting");
+    }
+}
+
+}
