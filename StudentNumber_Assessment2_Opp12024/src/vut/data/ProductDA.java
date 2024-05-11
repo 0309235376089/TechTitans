@@ -26,6 +26,7 @@ public class ProductDA {
          final String URL = "jdbc:mysql://localhost/productDB";
          final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
+         //Try and catch
          try{
              Class.forName(DRIVER);
              con = DriverManager.getConnection(URL, USERNAME, PASSWORD);
