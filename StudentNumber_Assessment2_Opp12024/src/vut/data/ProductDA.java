@@ -6,6 +6,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
+import static ProductDA.ps;
+
 
 /**
  *
@@ -49,7 +51,7 @@ public static void replenish(int quantity, int productCode) {
         System.out.println("Error replenishing product.\n" + e.getMessage());
         }
 } //whatever wow git add
-//
+//Method to delete
 public static void deleteProduct(ProductPD prod) throws NotFoundException{
     boolean found=false;
     for (int i = 0; i < arProduct.size()&&!found; i++) {
