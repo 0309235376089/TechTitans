@@ -9,9 +9,9 @@ import java.util.ArrayList;
  * @author Examiner
  */
 public class ProductDA {
-    //MODIFY THESE DECLARATIONSIF THEY ARE INCORRECTLY DECLARED 
+    //MODIFY THESE DECLARATIONS IF THEY ARE INCORRECTLY DECLARED
 
-     Connection con;
+     private static Connection con;
      Statement stmt;
      ResultSet rs;
      PreparedStatement ps;
