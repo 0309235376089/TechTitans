@@ -20,7 +20,7 @@ public class ProductDA {
      private static PreparedStatement ps;
      private static ArrayList<ProductPD> arProduct = new ArrayList<>();
 
-     public static initialise(){
+     public static void initialise(){
          final String USERNAME = "root";
          final String PASSWORD = "";
          final String URL = "jdbc:mysql://localhost/productDB";
