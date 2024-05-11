@@ -13,7 +13,7 @@ public class ProductDA {
 
      private static Connection con;
      Statement stmt;
-     ResultSet rs;
+     private static ResultSet rs;
      PreparedStatement ps;
    private static ArrayList<ProductPD> arProduct = new ArrayList<>();
 
