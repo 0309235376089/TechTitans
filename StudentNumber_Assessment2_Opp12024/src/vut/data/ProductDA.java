@@ -9,13 +9,13 @@ import java.util.ArrayList;
  * @author Examiner
  */
 public class ProductDA {
-    //MODIFY THESE DECLARATIONSIF THEY ARE INCORRECTLY DECLARED 
+    //MODIFY THESE DECLARATIONS IF THEY ARE INCORRECTLY DECLARED
 
-     Connection con;
-     Statement stmt;
-     ResultSet rs;
+     private static Connection con;
+    private static Statement stmt;
+     private static ResultSet rs;
      PreparedStatement ps;
-    ArrayList<ProductPD> arProduct = new ArrayList<>();
+   private static ArrayList<ProductPD> arProduct = new ArrayList<>();
 
     
 }
