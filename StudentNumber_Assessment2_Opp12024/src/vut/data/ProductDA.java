@@ -27,6 +27,7 @@ public class ProductDA {
          final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
          //Try and catch
+         //Has to include throws
          try{
              Class.forName(DRIVER);
              con = DriverManager.getConnection(URL, USERNAME, PASSWORD);
