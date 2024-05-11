@@ -31,4 +31,4 @@ public static void replenish(int quantity, int productCode) {
 }catch (SQLException e){
         System.out.println("Error replenishing product.\n" + e.getMessage());
         }
-}
+} //whatever wow git add
