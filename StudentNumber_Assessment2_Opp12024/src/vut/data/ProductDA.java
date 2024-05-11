@@ -36,6 +36,19 @@ public class ProductDA {
              JOptionPane.showMessageDialog(null, ex.getMessage());
          }
      }
+    public static void addProduct(ProductPD prodObj) {
+        String query = "INSERT INTO tblProducts (prodName, price, quantity, prodCode, category) VALUES (?, ?, ?, ?, ?)";
+        try {
+            ps = con.prepareStatement(query);
+            ps.setString(1, prodObj.getProdName());
+            ps.setDouble(2, prodObj.getPrice());
+            ps.setInt(3, prodObj.getQuantity());
+            ps.setInt(4, prodObj.getProdCode());
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println("Error adding product.\n" + e.getMessage());
+        }
+    }
     public static void replenish(int quantity, int productCode) {
         String query = "UPDATE tblProduct SET quantity = quantity + ? WHERE productCode =?";
         try{
