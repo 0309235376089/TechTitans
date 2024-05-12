@@ -18,6 +18,7 @@ public class ProductPD {
     private String prodName;
     private double price;
     private int quantity, prodCode;
+    private ProdCategory category;
 
     //DECLARE MISSING AATTTRIBUTE IF ANY
     
@@ -28,6 +29,12 @@ public class ProductPD {
     public ProductPD() {
     }
     //CODE FIRST CONSTRUCTOR
+    public ProductPD(String prodName, ProdCategory category, int quantity, double price) {
+        this.prodName = prodName;
+        this.category = category;
+        this.quantity = quantity;
+        this.price = price;
+    }
 
     //CODE SECOND CONSTRUCTOR
     public void setProdName(String prodName) {
