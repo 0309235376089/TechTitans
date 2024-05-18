@@ -62,4 +62,16 @@ public class ProductDA {
         }
     }
     //Adding an unkwonk comment, just practicing to push
+    public static void deleteProd(ProductPD prod) throws NotFoundException{
+        boolean found=false;
+        for (int i = 0; i < arProd.size()&&!found; i++) {
+            if(arProd.get(i).getProductCode().equals(prod.getProductCode())){
+                found=true;
+                arProd.remove(i);
+            }
+        }
+        if(!found){
+            throw  new NotFoundException(prod.getProductCode()+" Not found for deleting");
+        }
+    }//del
 }
